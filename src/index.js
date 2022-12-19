@@ -25,8 +25,6 @@ function onSearchInput(event) {
 
   fetchCountry(searchQuery)
     .then(countries => {
-      console.log(countries.length);
-
       refs.countryList.innerHTML = '';
       refs.countryInfo.innerHTML = '';
 
