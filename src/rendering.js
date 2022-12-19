@@ -44,7 +44,6 @@ function renderCountryCard(country) {
   return markup;
 }
 
-
 export default{
     renderCountryCard,
     renderCountryList,
